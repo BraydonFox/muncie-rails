@@ -1,0 +1,42 @@
+[
+
+    {
+        "name" : "The \"Big Four\" Freight House",
+        "type" : "historical",
+        "description" : "The building here was once used for storing, loading, and unloading freight for the Cleveland, Cincinnati, Chicago & St. Louis Railway (nicknamed the \"Big Four Railroad\")",
+        "position" : {
+            "lat" : 40.187493989355964, 
+            "lng" : -85.38967341402768
+        }
+    },
+
+    {
+        "name" : "Gavin Street",
+        "type" : "",
+        "description" : "You can see the wye of the Norfolk Southern yard just to the east.",
+        "position": {
+            "lat" : 40.19767751557441,
+            "lng" : -85.36297519376511
+        }
+    },
+
+    {
+        "name" : "South Walnut Street",
+        "type" : "",
+        "description" : "All of the major rail lines in Muncie cross Walnut street at this location. From north to south you can see:<ul><li>Norfolk Southern's Frankfort district heading west</li><li>CSX's double track mainline to Indianapolis</li><li>Norfolk Southern's New Castle line crossing the CSX main and turning south</li></ul>",
+        "position" : {
+            "lat" : 40.188411455865456, 
+            "lng" : -85.38650322204386
+        }
+    },
+
+    {
+        "name" : "Wysor Street Depot",
+        "type" : "historical",
+        "description" : "Built in 1901 by the Cincinnati, Richmond, and Muncie Railroad, this beautifully restored depot now serves as a trailhead for the Cardinal Greenway.",
+        "position" : {
+            "lat" : 40.197755746708836,
+            "lng" : -85.37894636653799
+        }
+    }
+]

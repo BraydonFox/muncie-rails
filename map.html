@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muncie Rails</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="site-title">MuncieRails</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./map.html">Map</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="map"></div>
+
+    <footer>
+        
+    </footer>
+
+    <script src="./js/map.js"></script>
+
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPYLI8m3yAcQRZva8aA-UHq8MS9L5VMT4&map_ids=b65c17b9e5891450&callback=initMap">
+    </script>
+
+</body>
+</html>
