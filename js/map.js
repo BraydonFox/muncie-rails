@@ -1,15 +1,8 @@
-const menuButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 const mapDiv = document.getElementById('map');
 
-menuButton.addEventListener("click", () => {
-  mapDiv.style.display = mapDiv.style.display == "none" ? "block" : "none";
-  navbarLinks.classList.toggle("active");
-});
-
 let map;
-let markers = [];
-let activeInfoWindow;
+var markers = [];
+var activeInfoWindow;
 
 function initMap() {
   let mapProperties = {
@@ -21,7 +14,7 @@ function initMap() {
 
   this.map = new google.maps.Map(document.getElementById("map"), mapProperties);
 
-  fetch("./locations/locations.json")
+  fetch("../locations/locations.json")
     .then(response => response.json())
     .then(locations => createMarkersForAll(locations));
   

@@ -111,15 +111,12 @@ body {
   }
 }
 
-#map {
-  height: 85%;
+iframe {
+  height: 100%;
+  width: 100%;
 }
 
-.info-window {
-  padding: 0px 1em 1em;
-}
-
-.page-content {
+.main-content {
   height: 85%;
   background-color: var(--clr-light);
   color: var(--clr-dark);

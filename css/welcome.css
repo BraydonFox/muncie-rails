@@ -1,0 +1,31 @@
+:root {
+  --ff-primary: "Archivo", sans-serif;
+
+  --fw-bold: 400;
+  --fw-reg: 100;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2rem;
+  --fs-body: 1rem;
+
+  --clr-light: white;
+  --clr-dark: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-size: var(--fs-body);
+  font-family: var(--ff-primary);
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  margin: 0;
+  padding: 0;
+}
