@@ -10,6 +10,7 @@
 
   --clr-light: white;
   --clr-dark: #222;
+  --clr-accent: #555;
 }
 
 * {
@@ -60,7 +61,7 @@ body {
 }
 
 .navbar-links li:hover {
-  background-color: #555;
+  background-color: var(--clr-accent);
   transition: 0.3s;
 }
 

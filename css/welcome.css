@@ -10,6 +10,7 @@
 
   --clr-light: white;
   --clr-dark: #222;
+  --clr-accent: #555;
 }
 
 * {
@@ -26,6 +27,24 @@ body {
   font-family: var(--ff-primary);
   color: var(--clr-dark);
   background-color: var(--clr-light);
+  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.btn {
+  display: block;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  transition: 0.3s;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: auto;
+  max-width: 300px;
+}
+
+.btn:hover {
+  background-color: var(--clr-accent);
+  transition: 0.3s;
 }
