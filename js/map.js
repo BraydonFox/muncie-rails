@@ -10,6 +10,7 @@ function initMap() {
     center: {lat: 40.19114241107592, lng: -85.38653861373},
     zoom: 15,
     mapTypeControl: false,
+    gestureHandling: "greedy",
   }
 
   this.map = new google.maps.Map(document.getElementById("map"), mapProperties);
