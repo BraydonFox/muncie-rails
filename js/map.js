@@ -29,7 +29,6 @@ function createMarkersForAll(locations) {
 
 function createMarkerForOne(location) {
   const marker = new google.maps.Marker({
-    animation: google.maps.Animation.DROP,
     position: location.position,
     draggable: false,
     map: this.map,
