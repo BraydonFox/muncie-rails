@@ -13,16 +13,7 @@
   --clr-accent: #555;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
   font-size: var(--fs-body);
   font-family: var(--ff-primary);
   color: var(--clr-dark);
