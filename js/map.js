@@ -1,4 +1,5 @@
 const mapDiv = document.getElementById('map');
+const infoPageFrame= document.getElementsByName('info-page')[0];
 
 let map;
 var markers = [];
@@ -39,7 +40,7 @@ function createMarkerForOne(location) {
   `<div class="info-window">
     <h2 class="info-window__header">${location.name}</h2>
     <p class="info-window__description">${location.description}</p>
-    <a class="info-window__infolink" href="#">More info</a>
+    <a class="info-window__infolink" href="/locations/${location.infopage}" target="info-page" onclick="openInfoPage()">More info</a>
   </div>`;
 
   const infoWindow = new google.maps.InfoWindow({
@@ -53,4 +54,14 @@ function createMarkerForOne(location) {
   });
 
   markers.push(marker);
+}
+
+function openInfoPage() {
+  mapDiv.style.display = "none";
+  infoPageFrame.style.display = "block";
+}
+
+function returnToMap() {
+  infoPageFrame.style.display = "none";
+  mapDiv.style.display = "block";
 }

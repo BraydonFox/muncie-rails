@@ -3,11 +3,12 @@
     {
         "name" : "The \"Big Four\" Freight House",
         "type" : "historical",
-        "description" : "The building here was once used for storing, loading, and unloading freight for the Cleveland, Cincinnati, Chicago & St. Louis Railway (nicknamed the \"Big Four Railroad\")",
+        "description" : "This building was once provided freight services for the Cleveland, Cincinnati, Chicago & St. Louis Railway (nicknamed the \"Big Four Railroad\")",
         "position" : {
             "lat" : 40.187493989355964, 
             "lng" : -85.38967341402768
-        }
+        },
+        "infopage" : "/bigfourfreighthouse.html"
     },
 
     {
@@ -17,7 +18,8 @@
         "position": {
             "lat" : 40.19767751557441,
             "lng" : -85.36297519376511
-        }
+        },
+        "infopage" : ""
     },
 
     {
@@ -27,7 +29,8 @@
         "position" : {
             "lat" : 40.188411455865456, 
             "lng" : -85.38650322204386
-        }
+        },
+        "infopage" : ""
     },
 
     {
@@ -37,6 +40,7 @@
         "position" : {
             "lat" : 40.197755746708836,
             "lng" : -85.37894636653799
-        }
+        },
+        "infopage" : "/wysorstreetdepot.html"
     }
 ]
