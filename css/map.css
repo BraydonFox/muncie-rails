@@ -15,3 +15,7 @@ body {
 .info-window {
   padding: 0px 1em 1em;
 }
+
+.info-page {
+  display: none;
+}
